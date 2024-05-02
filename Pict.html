@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>College Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Home Page -->
+    <div data-role="page" id="home">
+
+        <!-- Header -->
+        <div data-role="header">
+            <h1 style="font-size: 30px; background-color: rgb(144, 144, 236);">Pune Institute OF Computer Technology
+            </h1>
+            <h4>(An Autonomous Institute affiliated to Savitribai Phule Pune University)</h4>
+        </div><!-- /header -->
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="#Home" class="ui-btn-active">Home</a></li>
+                <li><a href="#About" class="ui-btn-active">About</a></li>
+                <li><a href="#Department" class="ui-btn-active">Department</a></li>
+                <li><a href="#Contact" class="ui-btn-active">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Content -->
+        <div role="main" class="ui-content">
+            <h2>Welcome to our College!</h2>
+
+        </div><!-- /content -->
+        <center>
+            <div data-role="content" class="row">
+                <!-- <img src="College Building_02.jpg" alt="College Image" style="max-width:100%; height:auto;"> -->
+                <img src="College Photo 23 Feb 2023.jpg" alt="College Image" style="max-width:100%; height:auto;">
+            </div>
+            <div data-role="content" class="row">
+                <img src="" alt="College Image" style="max-width:100%; height:auto;">
+                <img src="" alt="College Image" style="max-width:100%; height:auto;">
+            </div>
+        </center>
+
+        <div data-role="content">
+            <h3>Wlcome to PICT</h3>
+            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+                temporibus. Deleniti, nesciunt obcaecati? Veniam sunt ullam, ipsum quo nisi enim quibusdam laboriosam
+                praesentium nostrum laborum fugit reiciendis tenetur inventore adipisci quisquam nesciunt officia rerum
+                ea voluptatum. Dolores animi fuga deserunt sequi sit ad voluptatum labore ullam quis, saepe vitae
+                laborum?</p>
+        </div>
+        <div data-role="content">
+            <h3>VISION</h3>
+            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+                temporibus. Deleniti, nesciunt obcaecati? Veniam sunt ullam, ipsum quo nisi enim quibusdam laboriosam
+                praesentium nostrum laborum fugit reiciendis tenetur inventore adipisci quisquam nesciunt officia rerum
+                ea voluptatum. Dolores animi fuga deserunt sequi sit ad voluptatum labore ullam quis, saepe vitae
+                laborum?</p>
+        </div>
+        <div data-role="content">
+            <h3>MISION</h3>
+            <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+                temporibus. Deleniti, nesciunt obcaecati? Veniam sunt ullam, ipsum quo nisi enim quibusdam laboriosam
+                praesentium nostrum laborum fugit reiciendis tenetur inventore adipisci quisquam nesciunt officia rerum
+                ea voluptatum. Dolores animi fuga deserunt sequi sit ad voluptatum labore ullam quis, saepe vitae
+                laborum?</p>
+        </div>
+
+        <!-- Footer -->
+        <div data-role="footer" class="ui-content" style="background-color: rgb(60, 60, 225);">
+            <h4>&copy; 2024 College Website</h4>
+            <center>
+                <p>Explore the opportunities and experiences our college has to offer.</p>
+                <a href="#about" class="ui-btn ui-icon-info ui-btn-icon-left">About Us</a>
+                <a href="#programs" class="ui-btn ui-icon-star ui-btn-icon-left">Programs</a>
+                <a href="#contact" class="ui-btn ui-icon-phone ui-btn-icon-left">Contact Us</a>
+            </center>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <!-- About Page -->
+    <div data-role="page" id="About">
+
+        <!-- Header -->
+        <div data-role="header">
+            <h1>About Us</h1>
+        </div><!-- /header -->
+
+        <!-- Content -->
+        <div role="main" class="ui-content">
+            <p>Information about our college goes here.</p>
+            <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+        </div><!-- /content -->
+
+        <!-- Footer -->
+        <div data-role="footer">
+            <h4>&copy; 2024 College Website</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <!-- Programs Page -->
+    <div data-role="page" id="Department">
+
+        <!-- Header -->
+        <div data-role="header">
+            <h1>Programs</h1>
+        </div><!-- /header -->
+
+        <div data-role="content">
+            <div data-role="listview">
+                <li><a href="2">Computer</a></li>
+                <li><a href="3">Information Technology</a></li>
+                <li><a href="4">Electronics</a></li>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div data-role="footer">
+            <h4>&copy; 2024 College Website</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+    <!-- Contact Page -->
+    <div data-role="page" id="Contact">
+
+        <!-- Header -->
+        <div data-role="header">
+            <h1>Contact Us</h1>
+        </div><!-- /header -->
+
+        <!-- Content -->
+        <div role="main" class="ui-content">
+            <a href="#home" class="ui-btn ui-btn-b ui-btn-left">Home</a>
+        </div>
+
+        <div data-role="content">
+            <label for="name">name</label>
+            <input type="text">
+
+            <label for="name">Email</label>
+            <input type="email">
+
+            <label for="name">number</label>
+            <input type="number">
+
+            <div class="content" class="row">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </div>
+
+
+
+        <div role="main" class="ui-content">
+            <h2>Contact Information</h2>
+            <p>You can contact us through the following channels:</p>
+            <ul>
+                <li>Email: info@example.com</li>
+                <li>Phone: +1 (123) 456-7890</li>
+                <li>Address: 123 Street, City, Country</li>
+            </ul>
+        </div><!-- /content -->
+
+        <!-- Footer -->
+        <div data-role="footer">
+            <h4>&copy; 2024 College Website</h4>
+        </div><!-- /footer -->
+    </div><!-- /page -->
+
+</body>
+
+</html>
